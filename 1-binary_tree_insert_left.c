@@ -21,5 +21,5 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 		child_moso->left->parent = child_moso;
 	}
 	parent->left = child_moso;
-	return(child_moso);
+	return (child_moso);
 }
