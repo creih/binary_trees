@@ -5,7 +5,7 @@
  * @tree: the pointer to the tree
  * Return: Height or NULL
  */
-size_t binary_tree_height(const binary_tree_t * tree)
+size_t binary_tree_heights(const binary_tree_t * tree)
 {
 	size_t height_moso, height_ndyo;
 
@@ -27,6 +27,6 @@ int binary_tree_balance(const binary_tree_t *tree)
 
 	if (tree == NULL)
 		return (0);
-	r = (int)(binary_tree_height(tree->left) - binary_tree_height(tree->right));
+	r = (int)(binary_tree_heights(tree->left) - binary_tree_heights(tree->right));
 	return (r)
 }
