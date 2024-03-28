@@ -1,11 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_height - to calculate the heigh of tree
+ * binary_tree_heights - to calculate the heigh of tree
  * @tree: the pointer to the tree
  * Return: Height or NULL
  */
-size_t binary_tree_heights(const binary_tree_t * tree)
+size_t binary_tree_heights(const binary_tree_t *tree)
 {
 	size_t r, height_moso, height_ndyo;
 
