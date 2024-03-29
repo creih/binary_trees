@@ -23,6 +23,6 @@ binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 		node_nshya->right->parent = node_nshya;
 	}
 	parent->right = node_nshya;
-	free(node_nshya)
+	free(node_nshya);
 	return (parent->right);
 }
